@@ -1,0 +1,25 @@
+{
+  "name": "es6-bases",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "proyecto de aprendizaje para es6",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon async/1_callback_xml.js",
+    "dev": "nodemon async/1_callback_xml.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielForero17/es6-bases.git"
+  },
+  "author": "Daniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielForero17/es6-bases/issues"
+  },
+  "homepage": "https://github.com/DanielForero17/es6-bases#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
