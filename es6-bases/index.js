@@ -1,6 +1,7 @@
-import materias from "./materias";
+import materias from "./materias.js";
+import pkg from 'colors'
 
-/*console.log(materias);*/
+/*console.log(materias);
 //metodos de los objeto arreglo
 //foreach: recorre un arreglo
 materias.forEach(function(materia) {
@@ -41,7 +42,16 @@ materias.push({
 
 
 
-materias.splice(1,2,"Luis Baquero")
+console.log(materias)*/
+
+/*//splice: eliminar un arreglo
+materias.splice(0, 2)
+
+console.log(materias)*/
+
+//findIndex: actualizar un elemento
+const actualizar = materias.findIndex(materia => materia.instructor === "Tatiana Cabrera");
+materias[actualizar].instructor="Cristian Buitrago"
 console.log(materias)
 
 

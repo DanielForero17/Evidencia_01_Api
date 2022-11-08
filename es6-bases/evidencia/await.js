@@ -1,6 +1,6 @@
 const needle = require('needle')
 
-const url = 'https://pokeapi.co/api/v2/type'
+const url = 'https://rickandmortyapi.com/api/character'
 
 const f = async () => {
     try {

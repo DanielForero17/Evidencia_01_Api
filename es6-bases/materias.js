@@ -1,46 +1,36 @@
+
 export const materias = [
     {
         id:1,
-        nombre: "PHP Avanzado",
-        instructor: "Cristian Buitrago",
-        tipo: "técnica",
+        nombre:"JavaScript",
+        instructor: "Tatiana Cabrera",
+        tipo:"tecnica",
         notas: [
             4.5,
             4,
-            3.2
+            3.7
         ]
     },
     {
         id:2,
-        nombre: "Educacion Fisica",
-        instructor: "Luis Baquero",
-        tipo: "deportivo",
+        nombre:"BD",
+        instructor: "Fernando Galindo",
+        tipo:"tecnica",
         notas: [
             4.5,
             4,
-            4.2
+            4.5
         ]
     },
     {
         id:3,
-        nombre: "Ingles V",
-        instructor: "Sandra ",
-        tipo: "Intermedio",
+        nombre:"Cultura fisica",
+        instructor: "Luis Baquero",
+        tipo:"trasversal",
         notas: [
-            3.5,
-            3,
-            3.2
-        ]
-    },
-    {
-        id:4,
-        nombre: "Bases de Datos",
-        instructor: "Fernando Suarez",
-        tipo: "Basico",
-        notas: [
-            4.5,
             4,
-            4.2
+            4.3,
+            4.1
         ]
     }
 ]
