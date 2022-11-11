@@ -8,6 +8,6 @@ function llamarAlumno( alumno , callback){
 function imprimir(texto){
     console.log(texto)
 }
-
+// axios, fecth, neddle
 //invocar la funcion principal llamarAlumno
 llamarAlumno("Daniel Forero" , imprimir)

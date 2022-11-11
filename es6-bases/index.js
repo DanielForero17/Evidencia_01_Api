@@ -1,4 +1,4 @@
-import materias from "./materias.js";
+import {materias} from "./materias.js";
 import pkg from 'colors'
 
 /*console.log(materias);
